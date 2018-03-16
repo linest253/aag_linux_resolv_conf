@@ -1,0 +1,19 @@
+{
+  "version": "2",
+  "build_cookbook": {
+    "name": "build_cookbook",
+    "path": ".delivery/build_cookbook"
+  },
+  "job_dispatch": {
+      "version": "v2"
+  },
+  "skip_phases": [],
+  "build_nodes": {},
+  "dependencies": [],
+  "delivery-truck": {
+    "publish": {
+      "chef_server": true,
+	"supermarket": "https://supermarket.alaskaair.com"
+    }
+  }
+}
